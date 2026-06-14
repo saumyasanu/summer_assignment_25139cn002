@@ -1,4 +1,4 @@
-//Program to check whether a number is palindrome or not using a function//
+//Program to check whether a number is palindrome or not using a function
 
 #include <stdio.h>
 int palindrome(int);
