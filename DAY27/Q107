@@ -1,0 +1,20 @@
+// Easy Salary Management System //
+
+#include <stdio.h>
+
+int main()
+{
+    int salary, bonus, totalSalary;
+
+    printf("Enter Basic Salary: ");
+    scanf("%d", &salary);
+
+    bonus = salary * 10 / 100;   // 10% bonus
+    totalSalary = salary + bonus;
+
+    printf("Basic Salary = %d\n", salary);
+    printf("Bonus = %d\n", bonus);
+    printf("Total Salary = %d\n", totalSalary);
+
+    return 0;
+}
