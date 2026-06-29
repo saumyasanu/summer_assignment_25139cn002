@@ -1,0 +1,26 @@
+/* Mini Employee Management System */
+
+#include <stdio.h>
+
+int main()
+{
+    int empId;
+    char empName[50];
+    float salary;
+
+    printf("Enter Employee ID: ");
+    scanf("%d", &empId);
+
+    printf("Enter Employee Name: ");
+    scanf("%s", empName);
+
+    printf("Enter Salary: ");
+    scanf("%f", &salary);
+
+    printf("\n--- Employee Details ---\n");
+    printf("Employee ID: %d\n", empId);
+    printf("Employee Name: %s\n", empName);
+    printf("Salary: %.2f\n", salary);
+
+    return 0;
+}
